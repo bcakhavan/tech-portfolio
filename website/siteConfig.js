@@ -9,21 +9,21 @@
 // site configuration options.
 
 // List of projects/orgs using your project for the users page.
-const users = [];
+const users = [];//if want to add more links here, need to update elsewhere in the repo ---> they will post a fork w/ more 
 
-const siteConfig = {
-    title: 'Your Name Here', // Title for your website.
-    tagline: 'Continuously improving, aspiring technologist.',
-    profilePhoto: 'img/profile.png',
-    url: 'https://joatmon08.github.io', // Your website URL
-    baseUrl: '/tech-portfolio/', // Base URL for your project */
+const siteConfig = {//Contains all your site configurations for you, ' ' --> Strings
+    title: 'Bonnie Akhavan', // Title for your website.
+    tagline: 'Aspiring Data Scientist in the Making!',
+    profilePhoto: 'img/profile.png',//change and add to the repo
+    url: 'https://bcakhavan.github.io', // Your website URL (KEEP as is but change the username) 
+    baseUrl: '/tech-portfolio/', // Base URL for your project */ KEEP the base URL the same bc this is the full URL you'll give out w/ tech portfolio 
     // For github.io type URLs, you would set the url and baseUrl like:
     //   url: 'https://facebook.github.io',
     //   baseUrl: '/test-site/',
 
     // Used for publishing and more
     projectName: 'tech-portfolio',
-    organizationName: 'joatmon08',
+    organizationName: 'bcakhavan',
     // For top-level user or org sites, the organization is still the same.
     // e.g., for the https://JoelMarcey.github.io site, it would be set like...
     //   organizationName: 'JoelMarcey'
@@ -67,8 +67,8 @@ const siteConfig = {
     enableUpdateTime: true,
 
     socialMedia: {
-        linkedin: '',
-        twitter: '',
+        linkedin: 'bonnieakhavan',
+        twitter: 'bcakhavan',
         github: '',
     },
 
